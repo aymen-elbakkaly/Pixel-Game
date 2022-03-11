@@ -48,11 +48,12 @@ body {
 
 #parameter__button {
     margin-left: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 1rem;
     font-size: 1Rem;
     background-color: var(--color-main);
     font-weight: bold;
+    color: white;
 }
 
 #parameter__button:active {
