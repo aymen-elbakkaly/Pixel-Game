@@ -28,13 +28,6 @@ function clearTable() {
   tBody.innerHTML = "";
 }
 
-function caseNumbering(count) {
-  var caseNumber = document.querySelectorAll(".table__line-case");
-  for (let index = 0; index < count * count; index++) {
-    caseNumber[index].setAttribute("id", "table__line-case-" + index);
-  }
-}
-
 function updateRangeInputValue() {
   var rangeInputElement = document.querySelector("#parameter__input-range");
   var rangeValue = rangeInputElement.value;
